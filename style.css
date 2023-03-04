@@ -1,0 +1,312 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.part1 {
+    background-color:pink;
+    color:black;
+    height: 6vh;
+    padding-left: 50pc;
+    padding-top: 13px;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.part1 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-weight:bold;
+    padding-left: 12px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.one i {
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.one .dropbtn {
+    background-color:greenyellow;
+    color: black;
+    font-weight:bolder;
+    font-size: 24px;
+    border: none;
+    padding: 1pc;
+    margin-left: 10pc;
+    margin-top: 8px;
+    margin-right: 2pc;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.one .dropbtn:hover{
+    background-color:rgba(0, 0, 255, 0.632);
+    color:white;
+    transition: 0.2;
+}
+
+.one .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.one .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0f0f2d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 10pc;
+}
+
+.one .dropdown-content a {
+    color: azure;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 22px;
+}
+
+.one .dropdown-content a:hover {
+    background-color: #000000;
+}
+
+.one .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.two img {
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.three button {
+    background-color:greenyellow;
+    color: black;
+    font-weight:bolder;
+    font-size: 24px;
+    border: none;
+    padding: 1pc;
+    margin-left: 10pc;
+    margin-top: 8px;
+    margin-right: 2pc;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.three button:hover{
+    background-color:rgba(0, 0, 255, 0.632);
+    color:white;
+}
+
+.three button i {
+    padding-left: 8px;
+}
+
+.three span {
+    padding-left:8px;
+    font-size:2pc;
+    padding-right: 1pc;
+}
+
+.three .heart i:hover {
+    color: red;
+    transition: 0.1s;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5pc;
+    position: relative;
+    left: -90px;
+}
+
+.options nav {
+    padding-right: 5pc;
+    padding-left: 1pc;
+    
+}
+
+.options nav a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding-right: 2.5pc;
+    padding-left: 1pc;
+    font-weight: 600;
+}
+.options nav a:hover{
+    color:palevioletred;
+    transition: 0.2s;
+}
+
+.options form .try {
+    margin-bottom: 1pc;
+    padding: 8px;
+    margin-top: 0.2pc;
+}
+
+form i {
+    font-size: 25px;
+    padding-right: 5px;
+    margin-top: 2px;
+    font-weight: 800;
+}
+form{
+    font-size: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5pc;
+    height: 35vh;
+    padding-right:5pc;
+    background-color:pink;
+}
+
+.footer .one img {
+    width: 250px;
+    height: 200px;
+    color: aliceblue;
+}
+
+.footer .one i {
+    margin-top: 3pc;
+    font-size: 35px;
+    padding-left: 18px;
+    color: black;
+}
+
+.footer .two {
+    padding-top: 3pc;
+    padding-left:15pc;
+}
+
+.footer .two h1 {
+    font-size: 32px;
+    color:black;
+}
+
+.footer .two a {
+    font-size: 25px;
+    color:#0f0f2d;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.footer .three {
+    padding-top: 3pc;
+    padding-left: 3pc;
+}
+
+.footer .three h1 {
+    font-size: 32px;
+    color: black
+}
+
+.footer .three a {
+    font-size: 25px;
+    color:#0f0f2d;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.slideimage{
+    display: flex;
+    align-items: center;
+}
+.slide {
+    height:40%;
+    width:65%;
+    margin-top: 3pc;
+    margin-left: 5pc;
+}
+.image{
+    margin-top: 3pc;
+}
+.image img{
+    width: 650px;
+    height: 45vh;
+    margin-top: 3pc;
+    position: relative;
+    left:-70px;
+}
+.image .img{
+    padding-bottom:8px
+}
+.Buy-btn {
+    position: absolute;
+    top:15%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color:rgba(235, 222, 222, 0.705);
+    color: black;
+    border-radius: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-weight:bold;
+    font-size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.Buy-btn:hover{
+    background-color:silver;
+    color:black;
+  }
+.Buy-btn i{
+    padding-left: 10px;
+    font-size: 25x;
+}
+.last{
+    background-color:whitesmoke;
+    color:black;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 13pc;
+}
+.card-element{
+    margin-left: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-element-two{
+    margin-left: 20px;
+    margin-top: 2pc;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-btn-primary{
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 255, 0.675);
+    text-transform: capitalize;
+    text-decoration:none ;
+    padding: 0.6pc;
+    border: none;
+    border: 5px;
+}
+.btn-btn-primary:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 0.2s;
+}
